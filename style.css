@@ -8,7 +8,7 @@ body {
   nav {
     background-color: rgba(255, 255, 255,0.9);
     height: 120px;
-    width: 98%;
+    width: 100%;
     font-weight: bold;
     position: relative;
     position: fixed;
@@ -105,13 +105,15 @@ body {
   }
   
   header h1 {
+
+  margin-top: 250px;
     color: rgba(254,194,0,255);
     font-size: 80px; /* use vw instead of px for font-size */
     margin-bottom: 3vw; /* use vw instead of px for margin */
   }
   
   header h2 {
-    color: rgba(255, 255, 255, 1);
+    color: 002a4f;
     font-size: 30px; /* use vw instead of px for font-size */
     margin-bottom: 2vw; /* use vw instead of px for margin */
   }
@@ -133,6 +135,7 @@ body {
   }
   
   #services h2 {
+    margin-top: 80px;
     text-align: center;
     font-size: 36px;
     margin-bottom: 60px;
@@ -171,6 +174,7 @@ body {
   }
   
   #values h2 {
+    margin-top: 80px;
     text-align: center;
     font-size: 50px;
     margin-bottom: 60px;
@@ -287,6 +291,7 @@ body {
   }
   
   #contact h2 {
+    margin-top: 80px;
     font-size: 50px;
     margin-bottom: 20px;
     text-transform: uppercase,bold;
